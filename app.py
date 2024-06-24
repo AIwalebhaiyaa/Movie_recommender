@@ -22,6 +22,7 @@ def get_recommendations(title, cosine_sim=cosine_sim):
     return df['title'].iloc[movie_indices]
 
 st.title('Movie Recommendation System')
+st.write("dhruv says hi")
 
 movie_title = st.selectbox(
     label ="select your movie",
